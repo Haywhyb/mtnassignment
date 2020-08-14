@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            display: flex;
+            justify-content: space-between;
+
+        }
+      #welcome{
+  
+          /* display: flex;
+          flex: 1; */
+          border: solid 1px blue;
+          flex:1;
+          padding: 20px;
+          background-color: hotpink;
+      }
+      #services{
+
+        /* display: flex;   */
+        border: solid 1px blue;
+        flex: 1;
+        padding: 20px;
+        background-color: lightskyblue;
+      }
+      #aboutus{
+          border: solid 1px blue;
+          flex: 1;
+          padding: 20px;
+          background-color: #fffc00;
+      }
+      @media(max-width: 600px){
+          #container{
+              text-align: center;
+              display: block;
+            
+
+
+          }
+          #welcome{
+              width: 100%;
+              margin-bottom: 10px;
+
+          }
+          #aboutus{
+
+            width: 100%;
+            margin-bottom: 10px;
+
+          }
+        #services{
+            width: 100%;
+            margin-bottom: 10px;
+
+
+        }
+      }
+    </style>
+</head>
+<body>
+    <div id="bigwrapper">
+        <div id="container">
+
+   <div id="welcome"> <h3>WELCOME</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+       Minus quis optio iste consequuntur deleniti, eligendi hic ex molestiae iusto voluptate
+    totam illo,necessitatibus animi! Nam id cum quaerat laboriosam ipsam.</p> </div>
+<div id="aboutus"><h3>ABOUT US</h3>
+     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ducimus. 
+    Laudantium porro voluptates iure deserunt eveniet maiores fugiat iusto quisnam iste deleniti 
+    reiciendis nesciunt fuga distinctio, assumenda expedita beatae!</P></div>
+    <div id="services"><h3>SERVICES</h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quo
+         optio quibusdam minima delectus adipisci temporibus officia facilis repellat! Fugiat tempora 
+         numquam molestias ullam nostrum ab quis, impedit consequuntur reprehenderit!</p></div>
+        </div>
+    </div>
+</body>
+</html>
